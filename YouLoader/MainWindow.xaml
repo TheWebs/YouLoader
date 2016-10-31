@@ -1,0 +1,25 @@
+﻿<Controls:MetroWindow x:Class="YouLoader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YouLoader"
+        mc:Ignorable="d"
+        Title="YouLoader" Height="422" Width="855" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="688"/>
+        <Button x:Name="button" Content="Search" HorizontalAlignment="Left" Height="24" Margin="704,10,0,0" VerticalAlignment="Top" Width="135" Click="button_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="344" Margin="0,39,0,0" VerticalAlignment="Top" Width="396" SelectionChanged="listBox_SelectionChanged"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="195" Margin="469,39,0,0" VerticalAlignment="Top" Width="310"/>
+        <Button x:Name="button1" Content="Download" HorizontalAlignment="Left" Height="57" Margin="396,326,0,0" VerticalAlignment="Top" Width="216" Click="button1_Click"/>
+        <Label x:Name="label" Content="Titulo:" HorizontalAlignment="Left" Height="23" Margin="401,239,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="label_Copy" Content="Autor: " HorizontalAlignment="Left" Height="23" Margin="401,267,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="label_Copy1" Content="Url:" HorizontalAlignment="Left" Height="23" Margin="401,295,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="TituloLabel" Content="&#xD;&#xA;" HorizontalAlignment="Left" Height="28" Margin="469,237,0,0" VerticalAlignment="Top" Width="370"/>
+        <Label x:Name="AutorLabel" Content="&#xA;" HorizontalAlignment="Left" Height="28" Margin="469,265,0,0" VerticalAlignment="Top" Width="370"/>
+        <Label x:Name="UrlLabel" Content="&#xA;" HorizontalAlignment="Left" Height="28" Margin="469,293,0,0" VerticalAlignment="Top" Width="370"/>
+        <Button x:Name="button2" Content="Creditos" HorizontalAlignment="Left" Height="57" Margin="623,326,0,0" VerticalAlignment="Top" Width="216" Click="button2_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>
